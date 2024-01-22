@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../music_sequencer.srcs/sources_1/imports/PmodOLED_Source/Delay.vhd" \
+"../../../../music_sequencer.srcs/sources_1/imports/PmodOLED_Source/OledExample.vhd" \
+"../../../../music_sequencer.srcs/sources_1/imports/PmodOLED_Source/OledInit.vhd" \
+"../../../../music_sequencer.srcs/sources_1/imports/PmodOLED_Source/PmodOLEDCtrl.vhd" \
+"../../../../music_sequencer.srcs/sources_1/imports/PmodOLED_Source/SpiCtrl.vhd" \
+
+# Do not sort compile order
+nosort

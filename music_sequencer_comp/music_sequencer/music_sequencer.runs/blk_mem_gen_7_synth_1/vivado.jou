@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Mon Jan 15 17:37:08 2024
+# Process ID: 38044
+# Current directory: C:/Users/yuta0/music_sequencer_2_copy/music_sequencer/music_sequencer.runs/blk_mem_gen_7_synth_1
+# Command line: vivado.exe -log blk_mem_gen_7.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source blk_mem_gen_7.tcl
+# Log file: C:/Users/yuta0/music_sequencer_2_copy/music_sequencer/music_sequencer.runs/blk_mem_gen_7_synth_1/blk_mem_gen_7.vds
+# Journal file: C:/Users/yuta0/music_sequencer_2_copy/music_sequencer/music_sequencer.runs/blk_mem_gen_7_synth_1\vivado.jou
+# Running On: TSUKANO, OS: Windows, CPU Frequency: 1996 MHz, CPU Physical cores: 16, Host memory: 14877 MB
+#-----------------------------------------------------------
+source blk_mem_gen_7.tcl -notrace

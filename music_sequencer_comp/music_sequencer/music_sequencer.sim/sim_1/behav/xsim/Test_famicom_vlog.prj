@@ -1,0 +1,28 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../music_sequencer.gen/sources_1/ip/blk_mem_gen_5/sim/blk_mem_gen_5.v" \
+"../../../../music_sequencer.gen/sources_1/ip/blk_mem_gen_3/sim/blk_mem_gen_3.v" \
+"../../../../music_sequencer.gen/sources_1/ip/blk_mem_gen_4/sim/blk_mem_gen_4.v" \
+"../../../../music_sequencer.gen/sources_1/ip/blk_mem_gen_2/sim/blk_mem_gen_2.v" \
+"../../../../music_sequencer.gen/sources_1/ip/blk_mem_gen_1/sim/blk_mem_gen_1.v" \
+"../../../../music_sequencer.gen/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v" \
+"../../../../music_sequencer.gen/sources_1/ip/blk_mem_gen_Display/sim/blk_mem_gen_Display.v" \
+"../../../../music_sequencer.srcs/sources_1/new/Coin.v" \
+"../../../../music_sequencer.srcs/sources_1/new/LFSR.v" \
+"../../../../music_sequencer.srcs/sources_1/new/charLib_Verilog.v" \
+"../../../../music_sequencer.srcs/sources_1/new/famicom.v" \
+"../../../../music_sequencer.srcs/sources_1/new/mixer.v" \
+"../../../../music_sequencer.srcs/sources_1/new/noiseGenerator.v" \
+"../../../../music_sequencer.srcs/sources_1/new/pwm_6bit.v" \
+"../../../../music_sequencer.srcs/sources_1/new/sequencer.v" \
+"../../../../music_sequencer.srcs/sources_1/new/soundEffectCtrl.v" \
+"../../../../music_sequencer.srcs/sources_1/new/squarewave.v" \
+"../../../../music_sequencer.srcs/sources_1/new/tenMSecCounter.v" \
+"../../../../music_sequencer.srcs/sources_1/new/traianglewave.v" \
+"../../../../music_sequencer.srcs/sim_1/new/Test_famicom.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

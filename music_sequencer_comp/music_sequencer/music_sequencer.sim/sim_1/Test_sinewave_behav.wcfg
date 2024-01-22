@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Test_famicom_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Test_famicom" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000000 ms"></ZoomStartTime>
+      <ZoomEndTime time="7.367329848 ms"></ZoomEndTime>
+      <Cursor1Time time="7.176325000 ms"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="241"></NameColumnWidth>
+      <ValueColumnWidth column_width="124"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/Test_famicom/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_famicom/RESET" type="logic">
+      <obj_property name="ElementShortName">RESET</obj_property>
+      <obj_property name="ObjectShortName">RESET</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_famicom/BTN" type="logic">
+      <obj_property name="ElementShortName">BTN</obj_property>
+      <obj_property name="ObjectShortName">BTN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_famicom/START" type="logic">
+      <obj_property name="ElementShortName">START</obj_property>
+      <obj_property name="ObjectShortName">START</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_famicom/LD" type="logic">
+      <obj_property name="ElementShortName">LD</obj_property>
+      <obj_property name="ObjectShortName">LD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_famicom/SOUND" type="logic">
+      <obj_property name="ElementShortName">SOUND</obj_property>
+      <obj_property name="ObjectShortName">SOUND</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_famicom/uut/ToPWM" type="array">
+      <obj_property name="ElementShortName">ToPWM[6:0]</obj_property>
+      <obj_property name="ObjectShortName">ToPWM[6:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_FIXED</obj_property>
+      <obj_property name="AnalogYRangeMin">0</obj_property>
+      <obj_property name="AnalogYRRangeMax">183</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_famicom/uut/signalOut1" type="array">
+      <obj_property name="ElementShortName">signalOut1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">signalOut1[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_famicom/uut/Mixer/mixOut" type="array">
+      <obj_property name="ElementShortName">mixOut[6:0]</obj_property>
+      <obj_property name="ObjectShortName">mixOut[6:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+</wave_config>

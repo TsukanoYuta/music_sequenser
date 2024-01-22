@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1705307811">
+  <File Type="PA-TCL" Name="famicom.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="famicom_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="famicom_reports.tcl"/>
+  <File Type="RDS-RDS" Name="famicom.vds"/>
+  <File Type="RDS-UTIL" Name="famicom_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="famicom_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="famicom.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="famicom_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="famicom_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/Coin.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../emb/module0707/module20170707.srcs/sources_1/new/Coin.v"/>
+        <Attr Name="ImportTime" Val="1499405689"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/LFSR.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../emb/module0712/module0712.srcs/sources_1/new/LFSR.v"/>
+        <Attr Name="ImportTime" Val="1499824563"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/charLib_Verilog.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../emb/famicom0714/famicom0713.srcs/sources_1/new/charLib_Verilog.v"/>
+        <Attr Name="ImportTime" Val="1499935682"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/mixer.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../emb/module0707/module.srcs/sources_1/new/mixer.v"/>
+        <Attr Name="ImportTime" Val="1499234467"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/noiseGenerator.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../emb/module0712/module0712.srcs/sources_1/new/noiseGenerator.v"/>
+        <Attr Name="ImportTime" Val="1499834748"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/pwm_6bit.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../emb/module0707/module.srcs/sources_1/new/pwm_6bit.v"/>
+        <Attr Name="ImportTime" Val="1499314353"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/sequencer.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../emb/module0707/module.srcs/sources_1/new/sequencer.v"/>
+        <Attr Name="ImportTime" Val="1499318624"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/sine_modulator.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/sinwave.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/soundEffectCtrl.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../emb/module0707/module20170707.srcs/sources_1/new/soundEffectCtrl.v"/>
+        <Attr Name="ImportTime" Val="1499393309"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/squarewave.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../emb/module0707/module.srcs/sources_1/new/squarewave.v"/>
+        <Attr Name="ImportTime" Val="1499163002"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/tenMSecCounter.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../emb/module0711/module0711.srcs/sources_1/new/tenMSecCounter.v"/>
+        <Attr Name="ImportTime" Val="1499767594"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PmodOLED_Source/Delay.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../emb/famicom0714/famicom0713.srcs/sources_1/imports/PmodOLED_Source/Delay.vhd"/>
+        <Attr Name="ImportTime" Val="1499745727"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PmodOLED_Source/OledExample.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../emb/famicom0714/famicom0713.srcs/sources_1/imports/PmodOLED_Source/OledExample.vhd"/>
+        <Attr Name="ImportTime" Val="1500008086"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PmodOLED_Source/OledInit.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../emb/famicom0714/famicom0713.srcs/sources_1/imports/PmodOLED_Source/OledInit.vhd"/>
+        <Attr Name="ImportTime" Val="1499745727"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PmodOLED_Source/PmodOLEDCtrl.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../emb/famicom0714/famicom0713.srcs/sources_1/imports/PmodOLED_Source/PmodOLEDCtrl.vhd"/>
+        <Attr Name="ImportTime" Val="1499947187"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PmodOLED_Source/SpiCtrl.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../emb/famicom0714/famicom0713.srcs/sources_1/imports/PmodOLED_Source/SpiCtrl.vhd"/>
+        <Attr Name="ImportTime" Val="1499745727"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/famicom.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../emb/module0707/module.srcs/sources_1/new/famicom.v"/>
+        <Attr Name="ImportTime" Val="1499317625"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/traianglewave.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../emb/module0707/module.srcs/sources_1/new/traianglewave.v"/>
+        <Attr Name="ImportTime" Val="1499304904"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/traianglewave_state.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../emb/module0707/module.srcs/sources_1/new/traianglewave_state.v"/>
+        <Attr Name="ImportTime" Val="1499312774"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/pwm.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../emb/module0707/module.srcs/sources_1/new/pwm.v"/>
+        <Attr Name="ImportTime" Val="1499161496"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/coe/char/charLib.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/coe/char/charLib.coe"/>
+        <Attr Name="ImportTime" Val="1563153559"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/coe/newMario/newMario1.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/coe/newMario/newMario1.coe"/>
+        <Attr Name="ImportTime" Val="1499828068"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/coe/newMario/newMario2.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/coe/newMario/newMario2.coe"/>
+        <Attr Name="ImportTime" Val="1499828070"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/coe/newMario/newMario3.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/coe/newMario/newMario3.coe"/>
+        <Attr Name="ImportTime" Val="1499828099"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/coe/newMario/newMario4.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/coe/newMario/newMario4.coe"/>
+        <Attr Name="ImportTime" Val="1499836154"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/coe/SE/Coin.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/coe/SE/Coin.coe"/>
+        <Attr Name="ImportTime" Val="1499678857"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/coe/SE/PowerUp_as.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/coe/SE/PowerUp_as.coe"/>
+        <Attr Name="ImportTime" Val="1500093761"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/design_1/design_1.bd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/coe/sin_table/sin_table.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/design_2/design_2.bd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/design_3/design_3.bd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/design_4/design_4.bd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../source/repos/sin_2/x64/Debug/sine_table_2.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../source/repos/note_freq_2/x64/Debug/sine_modulator.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="famicom"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/famicomConstr.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../emb/module0707/module.srcs/constrs_1/new/famicomConstr.xdc"/>
+        <Attr Name="ImportTime" Val="1499163360"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/famicomConstr.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="blk_mem_gen_5"/>
+  <BlockFileSet Type="BlockSrcs" Name="blk_mem_gen_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="blk_mem_gen_4"/>
+  <BlockFileSet Type="BlockSrcs" Name="blk_mem_gen_Display"/>
+  <BlockFileSet Type="BlockSrcs" Name="blk_mem_gen_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="blk_mem_gen_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="blk_mem_gen_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="blk_mem_gen_6"/>
+  <BlockFileSet Type="BlockSrcs" Name="blk_mem_gen_7"/>
+</GenRun>

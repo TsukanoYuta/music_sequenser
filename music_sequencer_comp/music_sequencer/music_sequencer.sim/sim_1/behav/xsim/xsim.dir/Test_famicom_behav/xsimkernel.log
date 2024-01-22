@@ -1,0 +1,7 @@
+Running: xsim.dir/Test_famicom_behav/xsimk.exe -simmode gui -wdb Test_famicom_behav.wdb -simrunnum 0 -socket 59111
+Design successfully loaded
+Design Loading Memory Usage: 10400 KB (Peak: 10400 KB)
+Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 21808 KB (Peak: 21808 KB)
+Simulation CPU Usage: 28718 ms
